@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#wrapper {
+  height: 100vh;
+  width: 100vh;
+  overflow-x: visible;
+  overflow-y: visible;
+}
+
+:root {
+  --darkGreen: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  --gray: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+  --head: 2rem;
+  --text: 1rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 55%;
+  margin-top: 50%;
+  margin-left: 50%;
+  padding: 0px;
+  background-color: var(--cream);
+  border-radius: 1.5rem;
+}
+
+.content {
+  padding: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.image {
+  height: 100%;
+  padding: 0px;
+}
+
+.mug-img {
+  height: 100%;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+  padding: 0px;
+}
+
+.ruppee-actual {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.ruppee-fake {
+  font-size: x-small;
+  font-weight: lighter;
+}
+
+.btn {
+  display: block;
+  margin: 2em 0 1em 0;
+  width: 100%;
+  padding: 1em 0;
+  background-color: var(--darkGreen);
+  color: var(--white);
+  border-radius: 0.7rem;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: hsl(156, 24%, 24%);
+}
+
+.icon {
+  display: flex;
+}
+
+.btn-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 60px;
+}
+
+#cart {
+  margin-left: 1em;
+  max-width: 100%;
+}
+
+.btn-img {
+  margin-left: 2em;
+  max-width: 100%;
+}
